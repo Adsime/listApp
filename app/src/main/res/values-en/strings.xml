@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NAME">Name</string>
+    <string name="BIRTHDAY">Birthday</string>
+    <string name="PHONENR">Phonenr</string>
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+    <string name="EXIT_MESSAGE">Sure you want to quit?</string>
+    <string name="CONTACT_MISSTAKES">These fields have errors:</string>
+    <string name="AND">og</string>
+    <string name="KEEP_CONTACT">Do you wish to insert previous valid information?</string>
+    <string name="PREF_BDAY_TITLE">Birthday message</string>
+    <string name="PREF_TIME_TITLE">Time</string>
+    <string name="PREF_ON_OFF_TITLE">Turn off/on</string>
+    <string name="PREF_ON_OFF_DESC">Turn off or on automatic birthday message</string>
+    <string name="DEFAULTBDT">Happy birthday!</string>
+    <string name="SERVICE_STOPPED">Automatic birthday message OFF</string>
+    <string name="SERVICE_STARTED">Automatic birthday message ON</string>
+    <string name="MESSAGE_LABEL">Keep empty for general message</string>
+    <string name="INVALID_BIRTHDAY">Invalid birthdate</string>
+    <string name="WIDGET_LABEL">Todays birthdays</string>
+    <string name="NO_BIRTHDAYS">No birthdays</string>
+</resources>

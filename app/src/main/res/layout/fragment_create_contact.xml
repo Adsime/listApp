@@ -1,0 +1,101 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/create_contact_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        app:srcCompat="@mipmap/ic_placeholder"/>
+
+    <RelativeLayout
+        android:layout_weight="0.6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <EditText
+            android:inputType="textPersonName"
+            android:imeOptions="actionDone"
+            android:id="@+id/create_fragment_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/NAME"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/ctn2"
+            android:layout_below="@id/create_fragment_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:tint="@color/tint_theme"
+                app:srcCompat="@mipmap/ic_phone" />
+
+            <EditText
+                android:inputType="number"
+                android:imeOptions="actionDone"
+                android:id="@+id/create_fragment_phone"
+                android:hint="@string/PHONENR"
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ctn3"
+            android:layout_below="@+id/ctn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:tint="@color/tint_theme"
+                app:srcCompat="@mipmap/ic_cake" />
+
+            <EditText
+                android:id="@+id/create_fragment_birthday"
+                android:hint="@string/BIRTHDAY"
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:focusable="false"
+                android:focusableInTouchMode="false"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/MESSAGE_LABEL"
+            android:layout_width="match_parent"
+            android:layout_below="@id/ctn3"
+            android:layout_height="wrap_content"
+            android:id="@+id/create_birthday_message_label"
+            android:labelFor="@+id/create_birthday_message"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/create_birthday_message"
+            android:layout_below="@+id/create_birthday_message_label"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

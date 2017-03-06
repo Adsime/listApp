@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/DEFAULTBDT"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/PREF_BDAY_TITLE"
+        android:key="message_preference"
+        />
+    <com.example.adrianpc.s236308_mappe_2.activities.TimePickerPreference
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/PREF_TIME_TITLE"
+        android:key="time_preference" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="@string/PREF_ON_OFF_TITLE"
+        android:summary="@string/PREF_ON_OFF_DESC"
+        android:key="on_off_preference" />
+</PreferenceScreen>

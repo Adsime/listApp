@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NAME">Navn</string>
+    <string name="BIRTHDAY">Bursdag</string>
+    <string name="PHONENR">Telefonnr</string>
+    <string name="YES">Ja</string>
+    <string name="NO">Nei</string>
+    <string name="EXIT_MESSAGE">Er du sikker på at du vil avslutte?</string>
+    <string name="CONTACT_MISSTAKES">Disse feltene er fylt inn feil:</string>
+    <string name="AND">og</string>
+    <string name="KEEP_CONTACT">Ønsker du å sette inn tidligere gyldig informasjon?</string>
+    <string name="PREF_BDAY_TITLE">Bursdagsmelding</string>
+    <string name="PREF_TIME_TITLE">Tidspunkt</string>
+    <string name="PREF_ON_OFF_TITLE">Skru av/på</string>
+    <string name="PREF_ON_OFF_DESC">Skru av automatisk bursdagmelding</string>
+    <string name="DEFAULTBDT">Gratulerer med dagen!</string>
+    <string name="SERVICE_STOPPED">Automatisk bursdagmelding AV</string>
+    <string name="SERVICE_STARTED">Automatisk bursdagmelding PÅ</string>
+    <string name="MESSAGE_LABEL">Hold tom for generell melding</string>
+    <string name="INVALID_BIRTHDAY">Ugylidig bursdag</string>
+    <string name="WIDGET_LABEL">Dagens bursdager</string>
+    <string name="NO_BIRTHDAYS">Ingen bursdager</string>
+</resources>

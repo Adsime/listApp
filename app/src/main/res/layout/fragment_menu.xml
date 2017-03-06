@@ -1,0 +1,50 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/main_theme">
+
+    <ImageButton
+        android:id="@+id/menu_exit_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:background="@null"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:tint="@color/tint_theme" />
+
+    <ImageButton
+        android:id="@+id/menubutton_first_from_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:background="@null"
+        android:tint="@color/tint_theme" />
+
+    <ImageButton
+        android:id="@+id/menubutton_second_from_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:background="@null"
+        android:tint="@color/tint_theme" />
+
+    <ImageButton
+        android:id="@+id/menubutton_third_from_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:background="@null"
+        android:tint="@color/tint_theme" />
+
+    <ImageButton
+        android:id="@+id/menubutton_fourth_from_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:background="@null"
+        android:tint="@color/tint_theme" />
+</LinearLayout>
